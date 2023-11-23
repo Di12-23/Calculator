@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+}
+.calc
+{
+    background-color: rgb(9, 9, 9);
+    padding: 10px;
+    border: 50px;
+    border-color: brown;
+    border-radius: 5px;
+}
+.calc form div input
+{
+    outline: 0;
+    border: 2px;
+    height: 60px;
+    width: 60px;
+    border-radius: 10 px;
+    box-shadow: 10px 5px 5px rgb(222, 4, 4);
+    font-size: 20px;
+    background: transparent;
+    color: aliceblue;
+    margin: 10px;
+}

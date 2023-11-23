@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="Container">
+     <div class="calc">
+        <form name="f1">
+            <div class="display">
+                <input type="text"name="display" id="ttt">
+            </div>
+        <div>
+            <input type="button" value="AC"onclick="f1.display.value=''">
+            <input type="button" value="DEL"onclick="f1.display.value=">
+            <input type="button" value="+"onclick="f1.display.value+='+'">
+            <input type="button" value="-"onclick="f1.display.value+='-'"> 
+        </div>
+        <div>
+            <input type="button" value="7" onclick="f1.display.value+='7'">
+            <input type="button" value="8"onclick="f1.display.value+='8'">
+            <input type="button" value="9"onclick="f1.display.value+='9'">
+            <input type="button" value="X"onclick="f1.display.value+='X'">
+        </div>
+        <div>
+            <input type="button" value="4"onclick="f1.display.value+='4'">
+            <input type="button" value="5"onclick="f1.display.value+='5'">
+            <input type="button" value="6"onclick="f1.display.value+='6'">
+            <input type="button" value="/"onclick="f1.display.value+='/'">
+        </div>
+        <div>
+            <input type="button" value="1"onclick="f1.display.value+='1'">
+            <input type="button" value="2"onclick="f1.display.value+='2'">
+            <input type="button" value="3"onclick="f1.display.value+='3'">
+            <input type="button" value="="onclick="f1.display.value=eval(f1.display.value)">
+        </div>
+        <div>
+            <input type="button" value="00"onclick="f1.display.value+='00'">
+            <input type="button" value="0"onclick="f1.display.value+='0'">
+            <input type="button" value="%"onclick="f1.display.value+='%'">
+            <input type="button" value="."onclick="f1.display.value+='.'">
+        </div>
+       </form>
+     </div>
+    </div>
+</body>
+</html>
